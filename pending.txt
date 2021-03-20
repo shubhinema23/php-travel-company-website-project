@@ -1,0 +1,33 @@
+date calendar
+search suggestion
+login check internal
+
+
+1. diffrent header color for agent and traveller.
+2. show welcome with member name.
+3. check login for both traveller and agent(diffrent       sesion variables).
+4. add 2 column in tour-queries-traveller.php-> lastbid    date and travel date.
+5. add button for add query on tour-queries-   traveller.php.
+ add no of bid received and lowest bid amount    received
+
+6. get all columns rlated to query on tour-travel-querybid
+
+
+7. closed queries and awarded agent page. 
+
+8. tour-queries-traveller->  serch for accepted bids on queries
+
+
+9.message button on packages for traveller to contact   with agent.
+
+10. add pkgID in messageconversation table to send msg through package.
+
+11. complete search tour form. 
+
+12. all form design.
+
+13. profile link on header.
+
+14. review form.
+
+

@@ -1,0 +1,44 @@
+
+/* =Common Classes
+-------------------------------------------------------------- */
+
+
+.no-negative-margin{                            /*to add space between container and row*/
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.remove-column-padding{                          /*to remove space between row and column content*/
+
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.no-col-padding{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #ccc;
+}
+
+.span-lg
+{
+  font-size: 12px;
+  padding:8px;
+}
+
+.shadow-box{
+
+  box-shadow: 0 2px 3px rgba(0,0,0,0.09); 
+  border-radius: 3px;
+}
+
+.color9a9a9a{
+  color:#9a9a9a !important;
+}
+
+.font-24{
+  font-size:24px !important;
+}

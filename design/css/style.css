@@ -1,0 +1,358 @@
+/* = Core & typography
+-------------------------------------------------------------- */
+
+body{
+
+	font-family: "Karla", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #292c2f;
+    background-color: #F6F6F6;
+}
+
+
+
+
+
+
+/* =Main menu
+-------------------------------------------------------------- */
+#main-header {background:#000;}
+
+#main-menu {float:right; margin:0; padding:0; }
+
+#main-menu li {
+		display: list-item; 
+		float: left; 
+		list-style: none outside none; 
+		margin-left: 20px; 
+		padding: 20px 10px; 
+		cursor: pointer; 
+		position: relative;
+	}
+
+#main-menu li a {
+	color:#ccc; 
+	display:block; 
+	line-height:20px; 
+	padding:10px 0; 
+	font-size:16px; 
+	font-weight:700; 
+	text-transform:uppercase;
+}
+
+#main-menu li:hover > a, #main-menu li.current-menu-item > a {
+
+	color:#fff;
+}
+
+
+#main-menu li ul, #main-menu li ul li ul {
+    background-color: rgba(0,0,0,0.92);
+    border-top: 3px solid #;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    margin-top: -10px;
+    width: 190px;
+    z-index: 101;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -ms-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+}
+
+#main-menu li ul li ul {
+	top:0; 
+	left:100%;
+}
+
+#main-menu li ul li, #main-menu li ul li ul li {
+	float: left; 
+	margin: 0; 
+	padding: 0; 
+	width: 100%;
+}
+
+#main-menu li ul li a, #main-menu li ul li ul li a {
+	float: left; 
+	font-size: 13px; 
+	line-height: 20px;
+    padding: 10px 5px; 
+    width: 100%; 
+    overflow: hidden;
+
+        -webkit-transition: all 0.3s ease-in 0s;
+        -moz-transition: all 0.3s ease-in 0s;
+        -ms-transition: all 0.3s ease-in 0s;
+        -o-transition: all 0.3s ease-in 0s;
+        transition: all 0.3s ease-in 0s;
+         }
+
+
+#main-menu li ul li a:hover {
+	padding-left: 15px; 
+}
+
+#main-menu li:hover > ul { 
+	left: 0; 
+	opacity: 1; 
+	visibility: visible; 
+	margin-top: 0;
+}
+
+#main-menu li:last-child ul {
+ left: auto; 
+ right: 0;
+}
+
+#main-menu li:hover > ul li:hover ul {
+	left: 100%;
+}
+
+#main-menu ul li:hover {
+	background-color: #000;
+}
+
+
+
+/* =Main content home page
+-------------------------------------------------------------- */
+#main-content//{
+
+	background-image:url('http://extracoding.com/demo/wp/travelhub/wp-content/uploads/2015/08/slider1-min.jpg');
+}
+
+.Dreamtour{
+
+	background-color: #FFE200;
+}
+
+.form-pkg{
+
+	top:500px;
+}
+
+.pkg-search{
+
+	background-color: #ECECEC; 
+	 padding: 20px;
+
+}
+
+
+.pkg-nav{
+
+	background-color: #ffffff; 
+	padding: 35px 0;
+} 
+
+.pkg-nav li{
+
+	display: list-item; 
+		float: left; 
+		list-style: none outside none; 
+		margin-left: 20px; 
+		padding: 0px 10px; 
+		cursor: pointer; 
+		position: relative;
+}
+
+.packages{
+
+	margin-top:50px;
+	    
+}
+
+.packages ul {
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+ 
+	width:100%;
+}
+
+.packages li {
+ 
+	 
+	display: list-item; 
+		float: left; 
+		list-style: none outside none; 
+	
+    width:25%;
+		padding: 20px 0; 
+		cursor: pointer; 
+		margin: 0 auto;
+
+}
+
+.packages > .secondrow{
+
+	margin-top:50px;
+}
+
+
+.packages ul:first-child li{
+
+	margin-left: 0px;
+}
+
+
+.pkg-detail{
+
+	padding:6px;
+}
+
+.pkg-cost{
+	
+	font-weight: bold;
+}
+
+
+.list-third-row
+{
+	font-weight: bold;
+	background-color:#000;
+	color: #fff;
+	padding: 8px ;
+}
+
+
+
+.list-second-row
+{
+	font-weight: normal;
+	background-color:yellow;
+	color: #000;
+	padding: 8px ;
+	text-align: center;
+}
+
+
+.tourLink a{
+
+	color: #000;
+	padding-left: 5px;
+}
+
+
+
+.tab {
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #fcfcfc;
+}
+
+.tab button {
+    border: none;
+    /* margin: 0; */
+    padding: 13px 26px;
+    outline: none;
+    float: left;
+}
+
+
+.tab button:hover {
+    background-color: #ccc;
+}
+
+
+
+/* =Main content tour page
+-------------------------------------------------------------- */
+
+
+.tour-detail-list{
+    box-shadow: 0 2px 3px rgba(0,0,0,0.09);
+}
+
+
+.fa-star{
+	color:#FFCD47;
+}
+
+
+.tour-info{
+
+	border-right: 1px dotted #ccc;	    
+}
+
+
+
+
+/* =Main content tour detail page
+-------------------------------------------------------------- */
+
+#tour-detail{
+
+	}
+
+.tab-content-box > .col{
+	border-right: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	height:120px;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.tab-content-box > .col:first-child{
+
+	border-left:1px solid #ccc;
+}
+
+.tab2-content-box{
+	padding:50px;
+}
+
+
+
+.related-tour{
+
+    box-shadow: 0 2px 3px rgba(0,0,0,0.09);
+}
+
+
+/* =Main content reviw page
+-------------------------------------------------------------- */
+
+
+.reviewfrm input, textarea{
+
+	background-color: #F8F9FA !important;
+}
+
+.reviewfrm input:focus, textarea:focus{
+
+	background-color: #fff !important;
+}
+
+.user-img{
+	    box-shadow: 0 2px 3px rgba(0,0,0,0.09);
+    border: 6px solid #fff;
+}
+
+
+
+/* =Main content agent bid page
+-------------------------------------------------------------- */
+
+
+.table-bid{
+
+
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 3px;
+}
+
+
+
+#frm_travelPackage input{
+
+	background-color: #F8F9FA !important;
+}
